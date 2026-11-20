@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "feeds": [
+    {"id":"sec-releases","url":"https://www.sec.gov/news/pressreleases.rss"},
+    {"id":"occ-releases","url":"https://www.occ.gov/rss/occ_news.xml"},
+    {"id":"fed-releases","url":"https://www.federalreserve.gov/feeds/press_all.xml"},
+    {"id":"fca-news","url":"https://www.fca.org.uk/news/rss.xml"},
+    {"id":"ft-markets","url":"https://www.ft.com/markets?format=rss"},
+    {"id":"ft-technology","url":"https://www.ft.com/technology?format=rss"},
+    {"id":"the-diff","url":"https://www.thediff.co/archive/rss/"},
+    {"id":"net-interest","url":"https://www.netinterest.co/feed"},
+    {"id":"techcrunch-ai","url":"https://techcrunch.com/category/artificial-intelligence/feed/"},
+    {"id":"openai-news","url":"https://openai.com/news/rss.xml"}
+  ],
+  "unavailable": [
+    {"id":"pei-private-equity","checked_url":"https://www.privateequityinternational.com/feed/","reason":"2026-11-18: returned HTML, not a parseable RSS feed; retain catalog web research"},
+    {"id":"pei-private-credit","checked_url":"https://www.pei-privatecredit.com/feed/","reason":"2026-11-18: returned HTML, not a parseable RSS feed; retain catalog web research"},
+    {"id":"pei-private-real-estate","checked_url":"https://www.pei-privaterealestate.com/feed/","reason":"2026-11-18: returned HTML, not a parseable RSS feed; retain catalog web research"}
+  ]
+}
